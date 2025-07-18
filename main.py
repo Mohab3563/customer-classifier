@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 import joblib
 
 # Load trained KMeans model
-model = joblib.load("model/kmeans.pkl")
+model = joblib.load("app/model/kmeans.pkl")
 
 # Initialize FastAPI app
 app = FastAPI()
